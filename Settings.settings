@@ -297,6 +297,8 @@
   &lt;string&gt;I seem to have a bit of a stomach bug. I’ll be working from home today. &lt;/string&gt;
   &lt;string&gt;I'm gonna get my knee checked out as soon as the clinic opens (8am), hopefully I make it back in around lunch.&lt;/string&gt;
   &lt;string&gt;I’m starting to feel better, but I’m not going to be able to make it out on time today, and I would probably be late to the meeting, so I am just going to work from home again.&lt;/string&gt;
+  &lt;string&gt;I will be off on a PTO day to deal with some personal stuff.&lt;/string&gt;
+  &lt;string&gt;I need to get over to the gym to do some physical therapy exercises, and the only time I can fit this in to my schedule today before I’m too tired is 3-5 PM – so I’ll be away from my machine during those hours.&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="CurrentExcuse" Type="System.Int32" Scope="User">
@@ -305,6 +307,8 @@
     <Setting Name="ExcuseSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;

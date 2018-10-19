@@ -40,25 +40,21 @@
             this.RestartButton = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
             this.Memes = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.ForwardButton = new System.Windows.Forms.Button();
             this.RestartExcuses = new System.Windows.Forms.Button();
             this.ExcuseText = new System.Windows.Forms.Label();
             this.ResetExcuses = new System.Windows.Forms.Button();
             this.ExcuseButton = new System.Windows.Forms.Button();
-            this.ExcuseNotification = new System.Windows.Forms.Label();
             this.CopyButton = new System.Windows.Forms.Button();
             this.SendToEmail = new System.Windows.Forms.Button();
             this.BackButton = new System.Windows.Forms.Button();
-            this.ForwardButton = new System.Windows.Forms.Button();
             this.BackBox = new System.Windows.Forms.ListBox();
             this.ForwardBox = new System.Windows.Forms.ListBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.ExcuseNotification = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Jokes.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.Memes.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -218,7 +214,17 @@
             // 
             this.Memes.BackColor = System.Drawing.Color.Black;
             this.Memes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Memes.Controls.Add(this.tableLayoutPanel2);
+            this.Memes.Controls.Add(this.ExcuseNotification);
+            this.Memes.Controls.Add(this.ExcuseText);
+            this.Memes.Controls.Add(this.ForwardBox);
+            this.Memes.Controls.Add(this.BackBox);
+            this.Memes.Controls.Add(this.RestartExcuses);
+            this.Memes.Controls.Add(this.ForwardButton);
+            this.Memes.Controls.Add(this.CopyButton);
+            this.Memes.Controls.Add(this.ExcuseButton);
+            this.Memes.Controls.Add(this.ResetExcuses);
+            this.Memes.Controls.Add(this.BackButton);
+            this.Memes.Controls.Add(this.SendToEmail);
             this.Memes.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Memes.Location = new System.Drawing.Point(4, 36);
             this.Memes.Name = "Memes";
@@ -227,46 +233,31 @@
             this.Memes.TabIndex = 1;
             this.Memes.Text = "Excuses, plz";
             // 
-            // tableLayoutPanel2
+            // ForwardButton
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel2.ColumnCount = 4;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 279.5F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 279.5F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.ForwardButton, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.RestartExcuses, 1, 4);
-            this.tableLayoutPanel2.Controls.Add(this.ExcuseText, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.ResetExcuses, 3, 4);
-            this.tableLayoutPanel2.Controls.Add(this.ExcuseButton, 1, 3);
-            this.tableLayoutPanel2.Controls.Add(this.ExcuseNotification, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.CopyButton, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.SendToEmail, 3, 3);
-            this.tableLayoutPanel2.Controls.Add(this.BackButton, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 4);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 5;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.70732F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.37398F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40.813F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.105689F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1118, 657);
-            this.tableLayoutPanel2.TabIndex = 1;
+            this.ForwardButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.ForwardButton.AutoSize = true;
+            this.ForwardButton.BackColor = System.Drawing.Color.DimGray;
+            this.ForwardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ForwardButton.Font = new System.Drawing.Font("Palatino Linotype", 11.8F);
+            this.ForwardButton.Location = new System.Drawing.Point(568, 482);
+            this.ForwardButton.Name = "ForwardButton";
+            this.ForwardButton.Size = new System.Drawing.Size(254, 41);
+            this.ForwardButton.TabIndex = 13;
+            this.ForwardButton.Text = ">>>";
+            this.ForwardButton.UseVisualStyleBackColor = false;
+            this.ForwardButton.Visible = false;
+            this.ForwardButton.Click += new System.EventHandler(this.ForwardButton_Click);
             // 
             // RestartExcuses
             // 
-            this.RestartExcuses.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.RestartExcuses.BackColor = System.Drawing.Color.LightSalmon;
-            this.tableLayoutPanel2.SetColumnSpan(this.RestartExcuses, 2);
+            this.RestartExcuses.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.RestartExcuses.BackColor = System.Drawing.Color.Red;
             this.RestartExcuses.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
             this.RestartExcuses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RestartExcuses.Location = new System.Drawing.Point(283, 618);
+            this.RestartExcuses.Location = new System.Drawing.Point(236, 435);
             this.RestartExcuses.Name = "RestartExcuses";
-            this.RestartExcuses.Size = new System.Drawing.Size(552, 36);
+            this.RestartExcuses.Size = new System.Drawing.Size(656, 43);
             this.RestartExcuses.TabIndex = 8;
             this.RestartExcuses.Text = "Start the Excuses Over!";
             this.RestartExcuses.UseVisualStyleBackColor = false;
@@ -278,15 +269,12 @@
             this.ExcuseText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ExcuseText.AutoSize = true;
             this.ExcuseText.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ExcuseText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel2.SetColumnSpan(this.ExcuseText, 4);
             this.ExcuseText.Font = new System.Drawing.Font("Palatino Linotype", 20F);
-            this.ExcuseText.Location = new System.Drawing.Point(3, 72);
+            this.ExcuseText.Location = new System.Drawing.Point(3, 43);
             this.ExcuseText.Name = "ExcuseText";
-            this.tableLayoutPanel2.SetRowSpan(this.ExcuseText, 2);
-            this.ExcuseText.Size = new System.Drawing.Size(1112, 487);
+            this.ExcuseText.Size = new System.Drawing.Size(1118, 389);
             this.ExcuseText.TabIndex = 7;
             this.ExcuseText.Text = "Excuses Ahead...";
             this.ExcuseText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -297,7 +285,7 @@
             this.ResetExcuses.BackColor = System.Drawing.Color.Black;
             this.ResetExcuses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ResetExcuses.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ResetExcuses.Location = new System.Drawing.Point(1040, 620);
+            this.ResetExcuses.Location = new System.Drawing.Point(1041, 621);
             this.ResetExcuses.Name = "ResetExcuses";
             this.ResetExcuses.Size = new System.Drawing.Size(75, 34);
             this.ResetExcuses.TabIndex = 5;
@@ -307,40 +295,27 @@
             // 
             // ExcuseButton
             // 
-            this.ExcuseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.ExcuseButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ExcuseButton.BackColor = System.Drawing.Color.LightSalmon;
-            this.tableLayoutPanel2.SetColumnSpan(this.ExcuseButton, 2);
             this.ExcuseButton.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
             this.ExcuseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExcuseButton.Location = new System.Drawing.Point(283, 562);
+            this.ExcuseButton.Location = new System.Drawing.Point(307, 529);
             this.ExcuseButton.Name = "ExcuseButton";
-            this.ExcuseButton.Size = new System.Drawing.Size(552, 50);
+            this.ExcuseButton.Size = new System.Drawing.Size(515, 84);
             this.ExcuseButton.TabIndex = 3;
             this.ExcuseButton.Text = "I Need An Excuse!";
             this.ExcuseButton.UseVisualStyleBackColor = false;
             this.ExcuseButton.Click += new System.EventHandler(this.ExcuseButton_Click);
             // 
-            // ExcuseNotification
-            // 
-            this.ExcuseNotification.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.ExcuseNotification.AutoSize = true;
-            this.tableLayoutPanel2.SetColumnSpan(this.ExcuseNotification, 2);
-            this.ExcuseNotification.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.ExcuseNotification.Location = new System.Drawing.Point(559, 46);
-            this.ExcuseNotification.Name = "ExcuseNotification";
-            this.ExcuseNotification.Size = new System.Drawing.Size(0, 26);
-            this.ExcuseNotification.TabIndex = 9;
-            // 
             // CopyButton
             // 
-            this.CopyButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CopyButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.CopyButton.AutoSize = true;
             this.CopyButton.BackColor = System.Drawing.Color.RosyBrown;
             this.CopyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButton.Location = new System.Drawing.Point(3, 562);
+            this.CopyButton.Location = new System.Drawing.Point(567, 619);
             this.CopyButton.Name = "CopyButton";
-            this.CopyButton.Size = new System.Drawing.Size(273, 50);
+            this.CopyButton.Size = new System.Drawing.Size(255, 41);
             this.CopyButton.TabIndex = 10;
             this.CopyButton.Text = "Copy Text";
             this.CopyButton.UseVisualStyleBackColor = false;
@@ -349,15 +324,14 @@
             // 
             // SendToEmail
             // 
-            this.SendToEmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SendToEmail.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.SendToEmail.AutoSize = true;
             this.SendToEmail.BackColor = System.Drawing.Color.IndianRed;
             this.SendToEmail.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SendToEmail.Location = new System.Drawing.Point(842, 562);
+            this.SendToEmail.Location = new System.Drawing.Point(307, 619);
             this.SendToEmail.Name = "SendToEmail";
             this.SendToEmail.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.SendToEmail.Size = new System.Drawing.Size(273, 50);
+            this.SendToEmail.Size = new System.Drawing.Size(255, 41);
             this.SendToEmail.TabIndex = 11;
             this.SendToEmail.Text = "Send With Email";
             this.SendToEmail.UseVisualStyleBackColor = false;
@@ -366,75 +340,52 @@
             // 
             // BackButton
             // 
+            this.BackButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.BackButton.AutoSize = true;
             this.BackButton.BackColor = System.Drawing.Color.DimGray;
-            this.BackButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.BackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackButton.Font = new System.Drawing.Font("Palatino Linotype", 11.8F);
-            this.BackButton.Location = new System.Drawing.Point(3, 30);
+            this.BackButton.Location = new System.Drawing.Point(307, 484);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(273, 39);
+            this.BackButton.Size = new System.Drawing.Size(255, 39);
             this.BackButton.TabIndex = 12;
             this.BackButton.Text = "<<<";
             this.BackButton.UseVisualStyleBackColor = false;
             this.BackButton.Visible = false;
             this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
-            // ForwardButton
-            // 
-            this.ForwardButton.AutoSize = true;
-            this.ForwardButton.BackColor = System.Drawing.Color.DimGray;
-            this.ForwardButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ForwardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ForwardButton.Font = new System.Drawing.Font("Palatino Linotype", 11.8F);
-            this.ForwardButton.Location = new System.Drawing.Point(842, 30);
-            this.ForwardButton.Name = "ForwardButton";
-            this.ForwardButton.Size = new System.Drawing.Size(273, 39);
-            this.ForwardButton.TabIndex = 13;
-            this.ForwardButton.Text = ">>>";
-            this.ForwardButton.UseVisualStyleBackColor = false;
-            this.ForwardButton.Visible = false;
-            this.ForwardButton.Click += new System.EventHandler(this.ForwardButton_Click);
-            // 
             // BackBox
             // 
-            this.BackBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BackBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.BackBox.FormattingEnabled = true;
             this.BackBox.ItemHeight = 24;
-            this.BackBox.Location = new System.Drawing.Point(3, 3);
+            this.BackBox.Location = new System.Drawing.Point(957, 631);
             this.BackBox.Name = "BackBox";
-            this.tableLayoutPanel3.SetRowSpan(this.BackBox, 2);
-            this.BackBox.Size = new System.Drawing.Size(130, 30);
+            this.BackBox.Size = new System.Drawing.Size(78, 4);
             this.BackBox.TabIndex = 14;
             this.BackBox.Visible = false;
             // 
             // ForwardBox
             // 
-            this.ForwardBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ForwardBox.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.ForwardBox.FormattingEnabled = true;
             this.ForwardBox.ItemHeight = 24;
-            this.ForwardBox.Location = new System.Drawing.Point(139, 3);
+            this.ForwardBox.Location = new System.Drawing.Point(957, 647);
             this.ForwardBox.Name = "ForwardBox";
-            this.tableLayoutPanel3.SetRowSpan(this.ForwardBox, 2);
-            this.ForwardBox.Size = new System.Drawing.Size(131, 30);
+            this.ForwardBox.Size = new System.Drawing.Size(78, 4);
             this.ForwardBox.TabIndex = 15;
             this.ForwardBox.Visible = false;
             // 
-            // tableLayoutPanel3
+            // ExcuseNotification
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.ForwardBox, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.BackBox, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 618);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(273, 36);
-            this.tableLayoutPanel3.TabIndex = 16;
+            this.ExcuseNotification.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.ExcuseNotification.ForeColor = System.Drawing.Color.BlanchedAlmond;
+            this.ExcuseNotification.Location = new System.Drawing.Point(8, 17);
+            this.ExcuseNotification.Name = "ExcuseNotification";
+            this.ExcuseNotification.Size = new System.Drawing.Size(1108, 26);
+            this.ExcuseNotification.TabIndex = 16;
+            this.ExcuseNotification.Text = "Excuse #  /";
+            this.ExcuseNotification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // JokeExcuseGenerator
             // 
@@ -445,7 +396,6 @@
             this.ClientSize = new System.Drawing.Size(1132, 703);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "JokeExcuseGenerator";
             this.Text = "Joke & Excuse Generator";
@@ -454,9 +404,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.Memes.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
+            this.Memes.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -474,19 +422,17 @@
         private System.Windows.Forms.Label Notification;
         private System.Windows.Forms.Button Reset;
         private System.Windows.Forms.Button RestartButton;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button ResetExcuses;
         private System.Windows.Forms.Button ExcuseButton;
         private System.Windows.Forms.Label ExcuseText;
         private System.Windows.Forms.Button RestartExcuses;
-        private System.Windows.Forms.Label ExcuseNotification;
         private System.Windows.Forms.Button CopyButton;
         private System.Windows.Forms.Button SendToEmail;
         private System.Windows.Forms.Button ForwardButton;
         private System.Windows.Forms.Button BackButton;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.ListBox ForwardBox;
         private System.Windows.Forms.ListBox BackBox;
+        private System.Windows.Forms.Label ExcuseNotification;
     }
 }
 

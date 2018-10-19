@@ -478,8 +478,11 @@ namespace JokeGenerator {
             "a get my knee checked out as soon as the clinic opens (8am), hopefully I make it" +
             " back in around lunch.</string>\r\n  <string>I’m starting to feel better, but I’m " +
             "not going to be able to make it out on time today, and I would probably be late " +
-            "to the meeting, so I am just going to work from home again.</string>\r\n</ArrayOfS" +
-            "tring>")]
+            "to the meeting, so I am just going to work from home again.</string>\r\n  <string>" +
+            "I will be off on a PTO day to deal with some personal stuff.</string>\r\n  <string" +
+            ">I need to get over to the gym to do some physical therapy exercises, and the on" +
+            "ly time I can fit this in to my schedule today before I’m too tired is 3-5 PM – " +
+            "so I’ll be away from my machine during those hours.</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseList"]));
@@ -531,8 +534,8 @@ namespace JokeGenerator {
             "ing>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <strin" +
             "g>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n" +
             "  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</s" +
-            "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</Arra" +
-            "yOfString>")]
+            "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <str" +
+            "ing>0</string>\r\n  <string>0</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseSeen {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseSeen"]));
