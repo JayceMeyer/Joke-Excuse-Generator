@@ -219,6 +219,8 @@ namespace JokeGenerator
                 ExcuseButton.Hide();
                 SendToEmail.Hide();
                 CopyButton.Hide();
+                BackButton.Hide();
+                ForwardButton.Hide();
             }
             else
             {
