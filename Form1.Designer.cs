@@ -451,7 +451,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "JokeExcuseGenerator";
-            this.Text = "Joke & Excuse Generator";
+            this.Text = "Joke Generator";
             this.tabControl1.ResumeLayout(false);
             this.Jokes.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
