@@ -60,11 +60,13 @@
   &lt;string&gt;What did 0 say to 8? "Nice belt!"&lt;/string&gt;
   &lt;string&gt;Why did the orange stop? Because it ran outta juice.&lt;/string&gt;
   &lt;string&gt;What's the last thing that goes through a bug's mind when it hits the windshield? His butt.&lt;/string&gt;
+  &lt;string&gt;When do you put a cow on an elevator? When you want to raise the steaks!&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="LikeOrDislike" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
@@ -128,6 +130,7 @@
     <Setting Name="JokeSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
@@ -299,6 +302,7 @@
   &lt;string&gt;I’m starting to feel better, but I’m not going to be able to make it out on time today, and I would probably be late to the meeting, so I am just going to work from home again.&lt;/string&gt;
   &lt;string&gt;I will be off on a PTO day to deal with some personal stuff.&lt;/string&gt;
   &lt;string&gt;I need to get over to the gym to do some physical therapy exercises, and the only time I can fit this in to my schedule today before I’m too tired is 3-5 PM – so I’ll be away from my machine during those hours.&lt;/string&gt;
+  &lt;string&gt;There was construction at my bus stop, so they have put the main line that runs by my house on hold. Therefore I'll be WFH today.&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="CurrentExcuse" Type="System.Int32" Scope="User">
@@ -307,6 +311,7 @@
     <Setting Name="ExcuseSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;

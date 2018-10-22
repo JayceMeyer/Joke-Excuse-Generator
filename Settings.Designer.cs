@@ -82,7 +82,9 @@ namespace JokeGenerator {
             "call a sleepwalking nun? A roamin\' Catholic.</string>\r\n  <string>What did 0 say " +
             "to 8? \"Nice belt!\"</string>\r\n  <string>Why did the orange stop? Because it ran o" +
             "utta juice.</string>\r\n  <string>What\'s the last thing that goes through a bug\'s " +
-            "mind when it hits the windshield? His butt.</string>\r\n</ArrayOfString>")]
+            "mind when it hits the windshield? His butt.</string>\r\n  <string>When do you put " +
+            "a cow on an elevator? When you want to raise the steaks!</string>\r\n</ArrayOfStri" +
+            "ng>")]
         public global::System.Collections.Specialized.StringCollection JokeList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["JokeList"]));
@@ -93,6 +95,7 @@ namespace JokeGenerator {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
 <ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>0</string>
   <string>0</string>
   <string>0</string>
   <string>0</string>
@@ -174,6 +177,7 @@ namespace JokeGenerator {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
 <ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>0</string>
   <string>0</string>
   <string>0</string>
   <string>0</string>
@@ -482,7 +486,9 @@ namespace JokeGenerator {
             "I will be off on a PTO day to deal with some personal stuff.</string>\r\n  <string" +
             ">I need to get over to the gym to do some physical therapy exercises, and the on" +
             "ly time I can fit this in to my schedule today before I’m too tired is 3-5 PM – " +
-            "so I’ll be away from my machine during those hours.</string>\r\n</ArrayOfString>")]
+            "so I’ll be away from my machine during those hours.</string>\r\n  <string>There wa" +
+            "s construction at my bus stop, so they have put the main line that runs by my ho" +
+            "use on hold. Therefore I\'ll be WFH today.</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseList"]));
@@ -535,7 +541,7 @@ namespace JokeGenerator {
             "g>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n" +
             "  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</s" +
             "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <str" +
-            "ing>0</string>\r\n  <string>0</string>\r\n</ArrayOfString>")]
+            "ing>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseSeen {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseSeen"]));
