@@ -96,19 +96,20 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.JokeResult, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.Dislike, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.Like, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.JokeButton, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.Notification, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.RestartButton, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.Reset, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.JokeResult, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.Dislike, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.Like, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.JokeButton, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.Notification, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.RestartButton, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.Reset, 3, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.27273F));
+            this.tableLayoutPanel1.RowCount = 6;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 87F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.969151F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 64.52442F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.46541F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.20755F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 179F));
@@ -123,9 +124,9 @@
             this.tableLayoutPanel1.SetColumnSpan(this.JokeResult, 4);
             this.JokeResult.Dock = System.Windows.Forms.DockStyle.Fill;
             this.JokeResult.Font = new System.Drawing.Font("Palatino Linotype", 18F);
-            this.JokeResult.Location = new System.Drawing.Point(3, 119);
+            this.JokeResult.Location = new System.Drawing.Point(3, 118);
             this.JokeResult.Name = "JokeResult";
-            this.JokeResult.Size = new System.Drawing.Size(1112, 226);
+            this.JokeResult.Size = new System.Drawing.Size(1112, 251);
             this.JokeResult.TabIndex = 0;
             this.JokeResult.Text = "Prepare for LULZ.";
             this.JokeResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -136,9 +137,9 @@
             this.Dislike.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Dislike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Dislike.ForeColor = System.Drawing.Color.Black;
-            this.Dislike.Location = new System.Drawing.Point(282, 348);
+            this.Dislike.Location = new System.Drawing.Point(282, 372);
             this.Dislike.Name = "Dislike";
-            this.Dislike.Size = new System.Drawing.Size(273, 63);
+            this.Dislike.Size = new System.Drawing.Size(273, 50);
             this.Dislike.TabIndex = 1;
             this.Dislike.Text = "This Joke Sucks!";
             this.Dislike.UseVisualStyleBackColor = false;
@@ -150,9 +151,9 @@
             this.Like.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Like.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Like.ForeColor = System.Drawing.Color.Black;
-            this.Like.Location = new System.Drawing.Point(561, 348);
+            this.Like.Location = new System.Drawing.Point(561, 372);
             this.Like.Name = "Like";
-            this.Like.Size = new System.Drawing.Size(273, 63);
+            this.Like.Size = new System.Drawing.Size(273, 50);
             this.Like.TabIndex = 2;
             this.Like.Text = "I Love This Joke!";
             this.Like.UseVisualStyleBackColor = false;
@@ -166,9 +167,9 @@
             this.JokeButton.FlatAppearance.BorderColor = System.Drawing.Color.DarkOrange;
             this.JokeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JokeButton.ForeColor = System.Drawing.Color.Black;
-            this.JokeButton.Location = new System.Drawing.Point(282, 417);
+            this.JokeButton.Location = new System.Drawing.Point(282, 428);
             this.JokeButton.Name = "JokeButton";
-            this.JokeButton.Size = new System.Drawing.Size(552, 57);
+            this.JokeButton.Size = new System.Drawing.Size(552, 45);
             this.JokeButton.TabIndex = 3;
             this.JokeButton.Text = "Make Me Laugh!";
             this.JokeButton.UseVisualStyleBackColor = false;
@@ -176,14 +177,16 @@
             // 
             // Notification
             // 
-            this.Notification.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Notification.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.Notification, 2);
+            this.Notification.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Notification.ForeColor = System.Drawing.Color.BlanchedAlmond;
-            this.Notification.Location = new System.Drawing.Point(558, 93);
+            this.Notification.Location = new System.Drawing.Point(282, 87);
             this.Notification.Name = "Notification";
-            this.Notification.Size = new System.Drawing.Size(0, 26);
+            this.Notification.Size = new System.Drawing.Size(552, 31);
             this.Notification.TabIndex = 4;
+            this.Notification.Text = "Joke #  /";
+            this.Notification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RestartButton
             // 
@@ -391,7 +394,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSalmon;
+            this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.tableLayoutPanel2.SetColumnSpan(this.button1, 2);
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

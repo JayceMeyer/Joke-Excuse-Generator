@@ -37,6 +37,7 @@ namespace JokeGenerator
 
 
         #region Jokes Section
+
         public string getJoke()
         {
             string hereItIs = "";
@@ -83,10 +84,13 @@ namespace JokeGenerator
             return hereItIs;
         }
 
+        string TotJokes = Settings.Default.JokeSeen.Count.ToString();
+
         private void JokeButton_Click(object sender, EventArgs e)
         {
             JokeResult.BackColor = Color.BlanchedAlmond;
-            Notification.Text = "";
+            Notification.ForeColor = Color.BlanchedAlmond;
+            Notification.Text = "Joke #" + (Settings.Default.CurrentJoke + 1).ToString() + "/" + TotJokes;
             string joke = getJoke();
             JokeResult.Text = joke;
         }
@@ -241,6 +245,7 @@ namespace JokeGenerator
         }
         
         string TotExcuses = Settings.Default.ExcuseSeen.Count.ToString();
+
         private void ExcuseButton_Click(object sender, EventArgs e)
         {
             if (Count > 0)
