@@ -16,3 +16,4 @@ C:\Users\meyerja\Documents\Side Projects\JokeGenerator\JokeGenerator\obj\Debug\J
 C:\Users\meyerja\Documents\Side Projects\JokeGenerator\JokeGenerator\obj\Debug\JokeGenerator.exe
 C:\Users\meyerja\Documents\Side Projects\JokeGenerator\JokeGenerator\obj\Debug\JokeGenerator.pdb
 C:\Users\meyerja\Documents\Side Projects\JokeGenerator\JokeGenerator\obj\Debug\JokeGenerator.JokeExcuseGenerator.resources
+C:\Users\meyerja\Documents\Side Projects\JokeGenerator\JokeGenerator\obj\Debug\JokeGenerator.csprojResolveAssemblyReference.cache
