@@ -304,6 +304,9 @@
   &lt;string&gt;I need to get over to the gym to do some physical therapy exercises, and the only time I can fit this in to my schedule today before I’m too tired is 3-5 PM – so I’ll be away from my machine during those hours.&lt;/string&gt;
   &lt;string&gt;There was construction at my bus stop, so they have put the main line that runs by my house on hold. Therefore I'll be WFH today.&lt;/string&gt;
   &lt;string&gt;I woke up with a sore throat and slight fever so I'm gonna take a sick day today. Don't wanna get anyone sick.&lt;/string&gt;
+  &lt;string&gt;I'm taking off the rest of the day. My pup has a vet visit at 2. I'll have my laptop with me just in case.&lt;/string&gt;
+  &lt;string&gt;I will be out on vacation next week, and I need to see my doctor this afternoon. I will be leaving early at 1:30 PM.&lt;/string&gt;
+  &lt;string&gt;Had to take an extra PTO day today to try to get my license sorted. Additionally, as a reminder, I’ll be gone Wed/Thur/Fri this week.&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="CurrentExcuse" Type="System.Int32" Scope="User">
@@ -312,6 +315,9 @@
     <Setting Name="ExcuseSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;

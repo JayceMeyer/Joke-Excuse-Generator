@@ -490,7 +490,12 @@ namespace JokeGenerator {
             "s construction at my bus stop, so they have put the main line that runs by my ho" +
             "use on hold. Therefore I\'ll be WFH today.</string>\r\n  <string>I woke up with a s" +
             "ore throat and slight fever so I\'m gonna take a sick day today. Don\'t wanna get " +
-            "anyone sick.</string>\r\n</ArrayOfString>")]
+            "anyone sick.</string>\r\n  <string>I\'m taking off the rest of the day. My pup has " +
+            "a vet visit at 2. I\'ll have my laptop with me just in case.</string>\r\n  <string>" +
+            "I will be out on vacation next week, and I need to see my doctor this afternoon." +
+            " I will be leaving early at 1:30 PM.</string>\r\n  <string>Had to take an extra PT" +
+            "O day today to try to get my license sorted. Additionally, as a reminder, I’ll b" +
+            "e gone Wed/Thur/Fri this week.</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseList"]));
@@ -544,7 +549,8 @@ namespace JokeGenerator {
             "  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</s" +
             "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <str" +
             "ing>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>" +
-            "\r\n</ArrayOfString>")]
+            "\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</ArrayOfStr" +
+            "ing>")]
         public global::System.Collections.Specialized.StringCollection ExcuseSeen {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseSeen"]));
