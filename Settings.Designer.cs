@@ -495,7 +495,15 @@ namespace JokeGenerator {
             "I will be out on vacation next week, and I need to see my doctor this afternoon." +
             " I will be leaving early at 1:30 PM.</string>\r\n  <string>Had to take an extra PT" +
             "O day today to try to get my license sorted. Additionally, as a reminder, I’ll b" +
-            "e gone Wed/Thur/Fri this week.</string>\r\n</ArrayOfString>")]
+            "e gone Wed/Thur/Fri this week.</string>\r\n  <string>I\'ve come down with a bad col" +
+            "d and will be working from home today.</string>\r\n  <string>My back is a bit scre" +
+            "wed up after my trip, and I have an appointment with my osteopath today.</string" +
+            ">\r\n  <string>I was going to take a PTO day today to deal with personal stuff, bu" +
+            "t I’m still feeling sick, so it’s not a good day to do that, and I’m going to wo" +
+            "rk from home instead. I’m planning on taking the PTO day next Wednesday if no on" +
+            "e has an issue with that.  I’m also going to be arriving late tomorrow, as I hav" +
+            "e a morning medical appointment that I scheduled before. I should be there after" +
+            " lunch.</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseList"]));
@@ -549,8 +557,8 @@ namespace JokeGenerator {
             "  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</s" +
             "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <str" +
             "ing>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>" +
-            "\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</ArrayOfStr" +
-            "ing>")]
+            "\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0<" +
+            "/string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseSeen {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseSeen"]));

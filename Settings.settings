@@ -307,6 +307,9 @@
   &lt;string&gt;I'm taking off the rest of the day. My pup has a vet visit at 2. I'll have my laptop with me just in case.&lt;/string&gt;
   &lt;string&gt;I will be out on vacation next week, and I need to see my doctor this afternoon. I will be leaving early at 1:30 PM.&lt;/string&gt;
   &lt;string&gt;Had to take an extra PTO day today to try to get my license sorted. Additionally, as a reminder, I’ll be gone Wed/Thur/Fri this week.&lt;/string&gt;
+  &lt;string&gt;I've come down with a bad cold and will be working from home today.&lt;/string&gt;
+  &lt;string&gt;My back is a bit screwed up after my trip, and I have an appointment with my osteopath today.&lt;/string&gt;
+  &lt;string&gt;I was going to take a PTO day today to deal with personal stuff, but I’m still feeling sick, so it’s not a good day to do that, and I’m going to work from home instead. I’m planning on taking the PTO day next Wednesday if no one has an issue with that.  I’m also going to be arriving late tomorrow, as I have a morning medical appointment that I scheduled before. I should be there after lunch.&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="CurrentExcuse" Type="System.Int32" Scope="User">
@@ -315,6 +318,9 @@
     <Setting Name="ExcuseSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;0&lt;/string&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
