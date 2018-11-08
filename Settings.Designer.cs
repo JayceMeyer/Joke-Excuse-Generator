@@ -503,7 +503,9 @@ namespace JokeGenerator {
             "rk from home instead. I’m planning on taking the PTO day next Wednesday if no on" +
             "e has an issue with that.  I’m also going to be arriving late tomorrow, as I hav" +
             "e a morning medical appointment that I scheduled before. I should be there after" +
-            " lunch.</string>\r\n</ArrayOfString>")]
+            " lunch.</string>\r\n  <string>I was planning on coming in this afternoon, but I’m " +
+            "just not feeling well enough to be in the office.  I am going to take a PTO day " +
+            "instead, rest up, and hopefully make it in tomorrow.</string>\r\n</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseList {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseList"]));
@@ -558,7 +560,8 @@ namespace JokeGenerator {
             "tring>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <str" +
             "ing>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>" +
             "\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0<" +
-            "/string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</ArrayOfString>")]
+            "/string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n  <string>0</string>\r\n</Ar" +
+            "rayOfString>")]
         public global::System.Collections.Specialized.StringCollection ExcuseSeen {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["ExcuseSeen"]));

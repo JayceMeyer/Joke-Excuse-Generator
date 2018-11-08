@@ -310,6 +310,7 @@
   &lt;string&gt;I've come down with a bad cold and will be working from home today.&lt;/string&gt;
   &lt;string&gt;My back is a bit screwed up after my trip, and I have an appointment with my osteopath today.&lt;/string&gt;
   &lt;string&gt;I was going to take a PTO day today to deal with personal stuff, but I’m still feeling sick, so it’s not a good day to do that, and I’m going to work from home instead. I’m planning on taking the PTO day next Wednesday if no one has an issue with that.  I’m also going to be arriving late tomorrow, as I have a morning medical appointment that I scheduled before. I should be there after lunch.&lt;/string&gt;
+  &lt;string&gt;I was planning on coming in this afternoon, but I’m just not feeling well enough to be in the office.  I am going to take a PTO day instead, rest up, and hopefully make it in tomorrow.&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="CurrentExcuse" Type="System.Int32" Scope="User">
@@ -318,6 +319,7 @@
     <Setting Name="ExcuseSeen" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
   &lt;string&gt;0&lt;/string&gt;
